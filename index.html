@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="list-container" id="list-container"></div>
+        <div class="playing-card">
+            <div class="cover-card">
+                <img id="cover-card-img" src="img/caratulas/last dance.jpg" alt="">
+            </div>
+            <input type="range" id="timmer" class="timmer" min="0">
+            <div class="controls-container">
+                <button id="prev-btn">back</button>
+                <button id="play-btn">play</button>
+                <button id="next-btn">next</button>
+                <button id="volume-down">-</button>
+            </div>
+        </div>
+    </div>
+        <audio src="audio/LAST DANCE.mp3" id="audio"></audio>
+    </div>
+    <script src="js/audios.js"></script>
+</body>
+</html>
